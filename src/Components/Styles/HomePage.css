@@ -13,6 +13,7 @@
   position: relative;
   top:150px;
   right:100px;
+  overflow: scroll;
 
 }
 .circles>div{
