@@ -42,3 +42,40 @@ right:250px;
     height: 40px;
     width: 150px;
 }
+.ColorcircleDv {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 80px;
+border: 1px solid black;
+
+}
+
+.ColorcircleMainDv {
+  display: grid;
+  margin-top: 50px;
+}
+.MainDiv {
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+}
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top:200px;
+  padding: 20px;
+  /* border: 1px solid blue; */
+}
+input{
+  padding: 20px;
+  width:100px;
+
+}
