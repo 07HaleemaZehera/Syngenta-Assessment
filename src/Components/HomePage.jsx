@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Styles/HomePage.css";
-
+import { AllColorsData } from "./AllColors";
 
 export default function HomePage() {
+  const[color,setColor]=useState(AllColorsData)
 
   return (
     <div className="main-container">
