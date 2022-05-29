@@ -45,7 +45,7 @@ export default function HomePage() {
     <div className="main-container">
       
       <div className="MainDiv">
-        <p>Empty Div</p>
+        <p>empty div</p>
         {color.map((ele) =>
           ele.status ? (
             <div
